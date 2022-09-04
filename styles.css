@@ -11,7 +11,7 @@ body{
     top: 0;
     padding-left:5%;
     padding-right:5%;
-    background-color: green;
+    background-color: rgba(135,206,235,0.4);
     position: absolute;
     background-size:100%
 }
@@ -30,7 +30,6 @@ body{
     align-items: center;
     border-radius: 25px;
 }
-
 .header{
     background-color: rgba(135,206,235,0.4);
     margin-top: 54px;
@@ -41,9 +40,7 @@ body{
     padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 5%;
-
 }
-
 .header img{
     display: flex;
     width: 400px;
@@ -53,4 +50,26 @@ body{
     font-weight:bold;
     font-size:25px;
 }
+.Information{
+    font-size: 36px;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+}
 
+.puffinry{
+    display: flex;
+    min-width: none;
+    justify-content: space-around;
+    padding: 38px;
+    gap: 34px;
+    text-align: center;
+}
+.puffinry img{
+    height: 350px;
+    width: 250px;
+    
+    border-width: 5px;
+    border-color: purple;
+    border-radius: 5px;
+}
