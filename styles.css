@@ -32,15 +32,25 @@ body{
 }
 
 .header{
-    background-color:  darkblue;
+    background-color: rgba(135,206,235,0.4);
     margin-top: 54px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 4px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
 }
 
 .header img{
     display: flex;
-    height :400px;
-    width: 200px;
+    width: 400px;
+    height :200px;
+}
+.header h4{
+    font-weight:bold;
+    font-size:25px;
 }
 
