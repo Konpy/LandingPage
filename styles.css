@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+    margin:0;
+}
+.banner{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: green;
+    position: absolute;
+    background-size:100%
+}
+.banner .links{ 
+    display:flex;
+}
+.banner ul{
+   list-style-type: none; 
+   display: flex;
+   gap: 5px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.header{
+    background-color:  darkblue;
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header img{
+    display: flex;
+    height :400px;
+    width: 200px;
+}
+
